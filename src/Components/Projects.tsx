@@ -1,16 +1,16 @@
 
 const projectsData = [
   {
-    title: "مشروع 1",
-    description: "هذا هو وصف مشروع 1. يتضمن تفاصيل ومعلومات مهمة عن المشروع.",
+    title: " Projects 1",
+    description: "#########",
   },
   {
-    title: "مشروع 2",
-    description: "هذا هو وصف مشروع 2. يوضح الهدف والتفاصيل الأخرى.",
+    title: "  Projects 1",
+    description: "#######",
   },
   {
-    title: "مشروع 3",
-    description: "هذا هو وصف مشروع 3. يشرح المفاهيم المستخدمة والتحديات.",
+    title: "  Projects 3",
+    description: "#######",
   },
 ];
 

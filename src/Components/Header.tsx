@@ -15,7 +15,7 @@ function Header({ toggleProjects }: HeaderProps) {
       <div className="flex justify-between items-center max-w-6xl mx-auto px-4">
         <div className="flex space-x-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/q1p1"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
@@ -23,7 +23,7 @@ function Header({ toggleProjects }: HeaderProps) {
             <img src={github} alt="GitHub" className="h-8 w-8" />
           </a>
           <a
-            href="https://www.linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/meshari-al-ghabban-133672296/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
@@ -31,7 +31,7 @@ function Header({ toggleProjects }: HeaderProps) {
             <img src={linkedin} alt="LinkedIn" className="h-8 w-8" />
           </a>
           <a
-            href="https://wa.me/yourphonenumber"
+            href="https://wsend.co/966553338690"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
@@ -39,7 +39,7 @@ function Header({ toggleProjects }: HeaderProps) {
             <img src={whatsapp} alt="WhatsApp" className="h-8 w-8" />
           </a>
           <a
-            href="https://www.youtube.com/channel/yourchannel"
+            href="https://www.youtube.com/@Meshari_AlGhabban"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
