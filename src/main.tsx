@@ -8,7 +8,7 @@ import ExperiencePage from "./Components/pages/ExperiencePage";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
-
+//
 root.render(
   <React.StrictMode>
     <Router>
