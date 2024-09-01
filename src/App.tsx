@@ -1,22 +1,18 @@
-import React, { useState } from 'react';
-import Header from "./Components/Header";  // تأكد من أن المسار صحيح
-import Projects from "./Components/Projects";  // تأكد من أن المسار صحيح والاسم صحيح
-import ProfileCard from "./Components/ProfileCard"  // تأكد من أن المسار صحيح
-
+import { useState } from "react";
+import Header from "./Components/Header";
+import Projects from "./Components/Projects";
+import ProfileCard from "./Components/ProfileCard";
 function App() {
-  const [showProjects, setShowProjects] = useState(false); // إضافة حالة لتتبع عرض المشاريع
-
-  // وظيفة لتبديل عرض المشاريع
+  const [showProjects, setShowProjects] = useState(false);
   const toggleProjects = () => {
     setShowProjects(!showProjects);
   };
 
   return (
     <div>
-      {/* تمرير الوظيفة toggleProjects إلى الهيدر */}
       <Header toggleProjects={toggleProjects} />
       <ProfileCard />
-      {showProjects && <Projects />} 
+      {showProjects && <Projects />}
     </div>
   );
 }

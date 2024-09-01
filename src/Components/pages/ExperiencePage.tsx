@@ -1,5 +1,4 @@
-// ExperiencePage.tsx
-import Header from "../Header"; // تأكد من مسار الاستيراد
+import Header from "../Header";
 
 function ExperiencePage() {
   return (
@@ -12,7 +11,6 @@ function ExperiencePage() {
       <div className="p-4">
         <h1 className="text-2xl font-bold mb-4">Experience</h1>
         <p>Here is where you can describe your professional experience.</p>
-        {/* يمكنك إضافة المزيد من التفاصيل هنا حول الخبرة */}
       </div>
     </div>
   );
