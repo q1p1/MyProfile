@@ -2,6 +2,7 @@ import imgmap from "../assets/MAPS.png";
 import github from "../assets/github.png";
 import QR from "../assets/qr.png";
 import task from "../assets/TASK.png";
+import AI from "../assets/image.png";
 
 const projectsData = [
   {
@@ -24,6 +25,12 @@ const projectsData = [
     imageUrl: task,
     projectUrl: "https://todo-final-u9ro.vercel.app/",
     githubUrl: "https://github.com/q1p1/todo-final",
+  },
+  {
+    title: "Ai Chatbot",
+    description: "An artificial intelligence bot that is considered a personal assistant",
+    imageUrl: AI,
+    githubUrl: "https://github.com/q1p1/AI",
   },
 ];
 
