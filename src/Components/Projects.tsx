@@ -28,8 +28,10 @@ const projectsData = [
   },
   {
     title: "Ai Chatbot",
-    description: "An artificial intelligence bot that is considered a personal assistant",
+    description:
+      "An artificial intelligence bot that is considered a personal assistant",
     imageUrl: AI,
+    projectUrl: "https://ai-beige-kappa.vercel.app/",
     githubUrl: "https://github.com/q1p1/AI",
   },
 ];
