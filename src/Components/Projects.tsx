@@ -1,17 +1,17 @@
-import imgmap from "../assets/MAPS.png";
+// import imgmap from "../assets/MAPS.png";
 import github from "../assets/github.png";
 import QR from "../assets/qr.png";
 import task from "../assets/TASK.png";
 import AI from "../assets/image.png";
 
 const projectsData = [
-  {
-    title: "Workers in maps",
-    description:
-      "The project is based on identifying workers on the map and calculating the number shown on the screen, and there are other characteristics that you can learn about when entering the project page.",
-    imageUrl: imgmap,
-    githubUrl: "https://github.com/AhmedAlaaEzzt/mk-todo-list",
-  },
+  // {
+  //   title: "Workers in maps",
+  //   description:
+  //     "The project is based on identifying workers on the map and calculating the number shown on the screen, and there are other characteristics that you can learn about when entering the project page.",
+  //   imageUrl: imgmap,
+  //   githubUrl: "https://github.com/AhmedAlaaEzzt/mk-todo-list",
+  // },
   {
     title: "QR Code",
     description: "Convert links and text into QR Code",
