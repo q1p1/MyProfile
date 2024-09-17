@@ -16,8 +16,8 @@ const projectsData = [
     title: "QR Code",
     description: "Convert links and text into QR Code",
     imageUrl: QR,
-    projectUrl: "https://github.com/q1p1/QR_code-fainal",
-    githubUrl: "https://qr-code-fainal.vercel.app/",
+    projectUrl: "https://qr-code-fainal.vercel.app/",
+    githubUrl: "https://github.com/q1p1/QR_code-fainal",
   },
   {
     title: "Task",
