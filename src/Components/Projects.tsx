@@ -3,6 +3,7 @@ import github from "../assets/github.png";
 import QR from "../assets/qr.png";
 import task from "../assets/TASK.png";
 import AI from "../assets/image.png";
+import Car from "../assets/Car_Maintenance_Tracker .png";
 
 // البيانات الخاصة بالمشاريع
 const projectsData = [
@@ -27,6 +28,14 @@ const projectsData = [
     imageUrl: AI,
     projectUrl: "https://ai-beige-kappa.vercel.app/",
     githubUrl: "https://github.com/q1p1/AI",
+  },
+  {
+    title: "Car Maintenance Tracker ",
+    description:
+      "Car Maintenance Tracker is an application that allows users to easily track and maintain their branch. The application aims to help car owners organize vehicle expansion plans, and keep a complete record of each strategy that includes the date, cost, and type of maintenance. The application also allows adding new, modifying, and deleting vehicle data when needed.hicle maintenance tracker",
+    imageUrl: Car,
+    projectUrl: "https://vehicle-maintenance-tracker.vercel.app/",
+    githubUrl: "https://github.com/q1p1/vehicle-maintenance-tracker",
   },
 ];
 
