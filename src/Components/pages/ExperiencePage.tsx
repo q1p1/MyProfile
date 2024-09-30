@@ -1,5 +1,6 @@
 import Header from "../Header";
 import wakecap from "../../assets/download.png";
+
 interface ExperienceProps {
   companyName: string;
   jobTitle: string;
@@ -16,12 +17,16 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
   tasks,
 }) => {
   return (
-    <div className="border rounded-lg shadow-lg p-4 mb-4 flex items-start">
-      <img src={wakecap} className="w-16 h-16 mr-4" />
+    <div className="border rounded-lg shadow-lg p-4  m-10 flex items-start hover:bg-gray-100 transition duration-300">
+      <img
+        src={wakecap}
+        className="w-16 h-16 mr-4 rounded-full"
+        alt="Company logo"
+      />
       <div>
-        <h2 className="text-xl font-semibold">{companyName}</h2>
-        <p className="text-gray-700">{jobTitle}</p>
-        <p className="text-gray-500">
+        <h2 className="text-xl font-semibold text-blue-700">{companyName}</h2>
+        <p className="text-gray-700 font-medium">{jobTitle}</p>
+        <p className="text-gray-500 italic">
           {startDate} - {endDate}
         </p>
         <ul className="list-disc list-inside mt-2 text-gray-600">
@@ -46,16 +51,17 @@ function ExperiencePage() {
         <h1 className="text-2xl font-bold mb-4">Experience</h1>
         <ExperienceCard
           companyName="WakaCap"
-          jobTitle="Software developer"
+          jobTitle="Software Developer"
           startDate="June 2024"
-          endDate="Naw "
+          endDate="Now"
           tasks={[
             "Developing and maintaining web applications using React and TypeScript",
-            "Optimizing web applications ",
-            "Adding new features",
-            "Solve bugs",
+            "Optimizing web applications for performance and scalability",
+            "Adding new features based on customer feedback",
+            "Identifying and solving bugs",
           ]}
         />
+        {/* يمكن إضافة بطاقات تجارب أخرى بنفس الشكل */}
       </div>
     </div>
   );
