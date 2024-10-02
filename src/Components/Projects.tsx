@@ -5,7 +5,6 @@ import task from "../assets/TASK.png";
 import AI from "../assets/image.png";
 import Car from "../assets/Car_Maintenance_Tracker .png";
 
-// البيانات الخاصة بالمشاريع
 const projectsData = [
   {
     title: "QR Code",
@@ -39,7 +38,6 @@ const projectsData = [
   },
 ];
 
-// مكون التحميل (Loading Spinner)
 function DotLoader() {
   return (
     <div className="flex justify-center items-center h-screen space-x-2">
@@ -50,15 +48,13 @@ function DotLoader() {
   );
 }
 
-// مكون المشاريع مع تأثير التحميل والظهور التدريجي
 function Projects() {
   const [loading, setLoading] = useState(true);
 
-  // محاكاة تحميل البيانات لمدة قصيرة
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // 1 ثانية كمدة للتحميل
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 

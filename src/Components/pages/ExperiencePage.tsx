@@ -61,7 +61,6 @@ function ExperiencePage() {
             "Identifying and solving bugs",
           ]}
         />
-        {/* يمكن إضافة بطاقات تجارب أخرى بنفس الشكل */}
       </div>
     </div>
   );

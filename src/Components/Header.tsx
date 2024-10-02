@@ -15,7 +15,6 @@ function Header({ toggleProjects }: HeaderProps) {
   return (
     <header className="bg-gray-800 text-white p-4 fixed top-0 w-full z-50">
       <div className="flex justify-between items-center max-w-6xl mx-auto px-4">
-        {/* أيقونات الشبكات الاجتماعية */}
         <div className="flex space-x-4">
           <a
             href="https://github.com/q1p1"
@@ -67,7 +66,6 @@ function Header({ toggleProjects }: HeaderProps) {
           </a>
         </div>
 
-        {/* أزرار الصفحة */}
         <div className="flex space-x-4">
           {!isExperiencePage ? (
             <>
