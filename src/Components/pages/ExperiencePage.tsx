@@ -1,5 +1,6 @@
 import Header from "../Header";
 import wakecap from "../../assets/download.png";
+import Tuu from "../../assets/tuu.jfif"; // قم باستيراد الصورة الجديدة
 
 interface ExperienceProps {
   companyName: string;
@@ -7,6 +8,7 @@ interface ExperienceProps {
   startDate: string;
   endDate: string;
   tasks: string[];
+  logo?: string; // إضافة اختيارية للشعار
 }
 
 const ExperienceCard: React.FC<ExperienceProps> = ({
@@ -15,11 +17,12 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
   startDate,
   endDate,
   tasks,
+  logo,
 }) => {
   return (
-    <div className="border rounded-lg shadow-lg p-4  m-10 flex items-start hover:bg-gray-100 transition duration-300">
+    <div className="border rounded-lg shadow-lg p-4 m-10 flex items-start hover:bg-gray-100 transition duration-300">
       <img
-        src={wakecap}
+        src={logo || wakecap}
         className="w-16 h-16 mr-4 rounded-full"
         alt="Company logo"
       />
@@ -60,6 +63,14 @@ function ExperiencePage() {
             "Adding new features based on customer feedback",
             "Identifying and solving bugs",
           ]}
+        />
+        <ExperienceCard
+          companyName="Ministry of Municipal rural affairs and housing"
+          jobTitle="Software Developer"
+          startDate="June 2023"
+          endDate="August 2023"
+          tasks={["web design", "database"]}
+          logo={Tuu}
         />
       </div>
     </div>
