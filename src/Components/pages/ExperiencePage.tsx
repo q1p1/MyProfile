@@ -1,6 +1,6 @@
 import Header from "../Header";
 import wakecap from "../../assets/download.png";
-import Tuu from "../../assets/tuu.jfif"; // قم باستيراد الصورة الجديدة
+import Tuu from "../../assets/tuu.jfif"; 
 
 interface ExperienceProps {
   companyName: string;
@@ -8,7 +8,7 @@ interface ExperienceProps {
   startDate: string;
   endDate: string;
   tasks: string[];
-  logo?: string; // إضافة اختيارية للشعار
+  logo?: string; 
 }
 
 const ExperienceCard: React.FC<ExperienceProps> = ({
