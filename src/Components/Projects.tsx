@@ -4,6 +4,7 @@ import QR from "../assets/qr.png";
 import task from "../assets/TASK.png";
 import AI from "../assets/image.png";
 import Car from "../assets/Car_Maintenance_Tracker .png";
+import mapss from "../assets/mapss.png";
 
 const projectsData = [
   {
@@ -40,7 +41,7 @@ const projectsData = [
     title: "GeoPoints Tracker",
     description:
       "An interactive website that allows users to view geographical points on an interactive map and know only the locations and their current location. Points are strategically displayed on the map using the ArcGIS library, with data (such as name, location, and color) saved as JSON.",
-    imageUrl: Car,
+    imageUrl: mapss,
     projectUrl: "https://maps-3radpoz2n-meshari-s-projects.vercel.app/",
     githubUrl: "https://github.com/q1p1/maps",
   },
