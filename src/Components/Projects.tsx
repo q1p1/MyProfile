@@ -5,6 +5,7 @@ import task from "../assets/TASK.png";
 import AI from "../assets/image.png";
 import Car from "../assets/Car_Maintenance_Tracker .png";
 import mapss from "../assets/mapss.png";
+import Whathar from "../assets/whathar.png";
 
 const projectsData = [
   {
@@ -40,10 +41,18 @@ const projectsData = [
   {
     title: "GeoPoints Tracker",
     description:
-      "An interactive website that allows users to view geographical points on an interactive map and know only the locations and their current location. Points are strategically displayed on the map using the ArcGIS library, with data (such as name, location, and color) saved as JSON.",
+      "This app provides an interactive map interface using ArcGIS that allows users to explore weather conditions in specific locations. When you click on any point on the map, the app displays a pop-up window showing current weather data such as temperature, wind speed, humidity, barometric pressure, and visibility. Additionally, users can switch between various map styles, including Hybrid, Topographic, and Dark Gray Canvas maps.Weather data is retrieved from WeatherAPI.com",
     imageUrl: mapss,
     projectUrl: "https://maps-3radpoz2n-meshari-s-projects.vercel.app/",
     githubUrl: "https://github.com/q1p1/maps",
+  },
+  {
+    title: "Weather API App ",
+    description:
+      "An interactive website that allows users to view geographical points on an interactive map and know only the locations and their current location. Points are strategically displayed on the map using the ArcGIS library, with data (such as name, location, and color) saved as JSON.",
+    imageUrl: Whathar,
+    projectUrl: "https://weather-api-app-phi.vercel.app/",
+    githubUrl: "https://github.com/q1p1/WeatherAPIApp",
   },
 ];
 
