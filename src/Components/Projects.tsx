@@ -6,6 +6,7 @@ import AI from "../assets/image.png";
 import Car from "../assets/Car_Maintenance_Tracker .png";
 import mapss from "../assets/mapss.png";
 import Whathar from "../assets/whathar.png";
+import pildeeng from "../assets/pildeeng.png";
 
 const projectsData = [
   {
@@ -53,6 +54,14 @@ const projectsData = [
     imageUrl: Whathar,
     projectUrl: "https://weather-api-app-phi.vercel.app/",
     githubUrl: "https://github.com/q1p1/WeatherAPIApp",
+  },
+  {
+    title: "building",
+    description:
+      "The Building Construction Estimation Tool is a web-based application designed to help civil engineers and construction professionals estimate required building materials based on key building parameters such as the number of floors, building area, rooms, doors, and windows, featuring automatic calculations for bricks, cement, and iron, 3D visualization of the building, an interactive map with location-specific pop-ups, customizable parameters, and multilingual support in English and Arabic, making it an ideal solution for quick and accurate material estimation.",
+    imageUrl: pildeeng,
+    projectUrl: "https://building-alpha.vercel.app/",
+    githubUrl: "https://github.com/q1p1/building",
   },
 ];
 
