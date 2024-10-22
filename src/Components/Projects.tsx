@@ -7,6 +7,7 @@ import Car from "../assets/Car_Maintenance_Tracker .png";
 import mapss from "../assets/mapss.png";
 import Whathar from "../assets/whathar.png";
 import pildeeng from "../assets/pildeeng.png";
+import came from "../assets/came.png";
 
 const projectsData = [
   {
@@ -62,6 +63,13 @@ const projectsData = [
     imageUrl: pildeeng,
     projectUrl: "https://building-alpha.vercel.app/",
     githubUrl: "https://github.com/q1p1/building",
+  },
+  {
+    title: "SmartCam",
+    description:
+      "The web app uses AI and camera data mining techniques, drawing on the TensorFlow.js library to provide an interactive experience right in the browser. Key Features: Real-time data recognition, simple and easy-to-use UI, runs directly in the release without downloading additional applications, model-based",
+    imageUrl: came,
+    githubUrl: "https://github.com/q1p1/SmartCame/tree/1",
   },
 ];
 
