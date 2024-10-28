@@ -13,12 +13,8 @@ function ProfileCard() {
 
       <h2 className="text-white text-2xl font-bold">Meshari AL-Ghabban</h2>
       <p className="text-blue-400 text-sm">Riyadh</p>
-      <button
-        onClick={() => window.open("/public/my-cv-meshari.pdf", "_blank")}
-        className="bg-gray-800 m-2  text-white font-bold py-2 px-4 rounded-lg transform hover:scale-105 transition-transform duration-300"
-      >
-        Download CV
-      </button>
+     
+
       <div className="mt-6 text-left">
         <h3 className="text-white text-sm font-semibold">SKILLS</h3>
         <div className="mt-3 flex flex-wrap gap-2">

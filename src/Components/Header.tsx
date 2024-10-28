@@ -3,6 +3,7 @@ import linkedin from "../assets/linkedin-logo.png";
 import whatsapp from "../assets/whatsapp.png";
 import youtube from "../assets/youtube.png";
 import github from "../assets/github.png";
+import email from "../assets/email.png";
 
 interface HeaderProps {
   toggleProjects: () => void;
@@ -61,6 +62,18 @@ function Header({ toggleProjects }: HeaderProps) {
             <img
               src={youtube}
               alt="YouTube"
+              className="h-8 w-8 transition-transform duration-300 transform hover:scale-125"
+            />
+          </a>
+          <a
+            href="mailto:mrshari2030ksa@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-200"
+          >
+            <img
+              src={email}
+              alt="email"
               className="h-8 w-8 transition-transform duration-300 transform hover:scale-125"
             />
           </a>
