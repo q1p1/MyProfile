@@ -25,7 +25,7 @@ function Header({ toggleProjects }: HeaderProps) {
             <img
               src={github}
               alt="GitHub"
-              className="h-8 w-8 transition-transform duration-300 transform hover:scale-110"
+              className="h-8 w-8 transition-transform duration-300 transform hover:scale-125"
             />
           </a>
           <a
@@ -37,7 +37,7 @@ function Header({ toggleProjects }: HeaderProps) {
             <img
               src={linkedin}
               alt="LinkedIn"
-              className="h-8 w-8 transition-transform duration-300 transform hover:scale-110"
+              className="h-8 w-8 transition-transform duration-300 transform hover:scale-125"
             />
           </a>
           <a
@@ -49,7 +49,7 @@ function Header({ toggleProjects }: HeaderProps) {
             <img
               src={whatsapp}
               alt="WhatsApp"
-              className="h-8 w-8 transition-transform duration-300 transform hover:scale-110"
+              className="h-8 w-8 transition-transform duration-300 transform hover:scale-125"
             />
           </a>
           <a
@@ -61,7 +61,7 @@ function Header({ toggleProjects }: HeaderProps) {
             <img
               src={youtube}
               alt="YouTube"
-              className="h-8 w-8 transition-transform duration-300 transform hover:scale-110"
+              className="h-8 w-8 transition-transform duration-300 transform hover:scale-125"
             />
           </a>
         </div>
@@ -72,20 +72,20 @@ function Header({ toggleProjects }: HeaderProps) {
               <div className="flex space-x-4">
                 <button
                   onClick={toggleProjects}
-                  className="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transform hover:scale-105 transition-transform duration-300"
+                  className="bg-gray-800 text-white font-bold py-2 px-4 rounded-lg transform hover:scale-105 transition-transform duration-300"
                 >
                   Show Projects
                 </button>
               </div>
               <Link to="/experience">
-                <button className="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transform hover:scale-105 transition-transform duration-300">
+                <button className="bg-gray-800 text-white font-bold py-2 px-4 rounded-lg transform hover:scale-105 transition-transform duration-300">
                   View Experience
                 </button>
               </Link>
             </>
           ) : (
             <Link to="/">
-              <button className="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transform hover:scale-105 transition-transform duration-300">
+              <button className="bg-gray-800 text-white font-bold py-2 px-4 rounded-lg transform hover:scale-105 transition-transform duration-300">
                 Back to Home
               </button>
             </Link>
