@@ -1,5 +1,5 @@
 import myimg from "../assets/ecdfcc2b-ee75-411b-984a-cfca1e76c6eb.jpg";
-import coding from "../assets/implementation.png";
+import coding from "../assets/coding.png";
 import html from "../assets/htmlImg.png";
 import css from "../assets/cssImg.png";
 import js from "../assets/jsImg.png";
