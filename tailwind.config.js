@@ -1,26 +1,23 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-
-module.exports = {
-  theme: {
-    extend: {
-      animation: {
-        "fade-in": "fadeIn 2s ease-out",
-      },
-      keyframes: {
-        fadeIn: {
-          "0%": { opacity: 0 },
-          "100%": { opacity: 2 },
-        },
-      },
+export const content = ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"];
+export const theme = {
+  extend: {
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+    },
+    colors: {
+      "custom-gray": "#f5f5f5",
+      "custom-blue": "#1e3a8a",
+    },
+    spacing: {
+      128: "32rem",
+      144: "36rem",
+    },
+    borderRadius: {
+      "4xl": "2rem",
     },
   },
-  variants: {},
-  plugins: [],
 };
+export const plugins = [
+  require("@tailwindcss/forms"),
+  require("@tailwindcss/typography"),
+];
