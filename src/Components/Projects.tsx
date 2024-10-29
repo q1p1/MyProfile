@@ -12,7 +12,8 @@ import came from "../assets/came.png";
 const projectsData = [
   {
     title: "QR Code",
-    description: "Convert links and text into QR Code",
+    description:
+      "This program allows you to create QR Codes and Barcodes quickly and easily. You can enter any text or link, and the program will generate the required code directly. The program features the flexibility to switch between QR Code and Barcode, making it suitable for a variety of uses such as sharing links or identifying products.",
     imageUrl: QR,
     projectUrl: "https://qr-code-fainal.vercel.app/",
     githubUrl: "https://github.com/q1p1/QR_code-fainal",
